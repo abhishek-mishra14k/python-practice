@@ -1,0 +1,54 @@
+
+1 . Write a Python program to take two numbers from the user and display:Addition , Multiplication ,Division, Subtraction and Power of the numbers
+
+# num1 = int(input("Enter first num:"))
+# num2  = int(input("Enter second num :"))
+# print(num1 + num2)
+# print(num1 * num2)
+# print(num1 / num2)
+# print(num1 - num2)
+# print(num1 ** num2)
+
+
+2 . Write a Python program to accept five numbers from the user and calculate their average.
+
+# num1 = int(input("Enter first num:"))
+# num2 = int(input("Enter second num:"))
+# num3 = int(input("Enter third num:"))
+# num4 = int(input("Enter fourth num:"))
+# num5 = int(input("Enter fifth num:"))
+
+# print((num1 + num2 + num3 + num4 + num5)/5)
+
+3 . A pen costs ₹15 and a notebook costs ₹40.
+Write a Python program to calculate the total cost if a person buys: 3 pens and 2 notebooks
+
+# pen = 15
+# notebook= 40
+
+# total_cost = (pen * 3) + (notebook * 2)
+# print(total_cost)
+
+
+4 . Write a Python program to take a number from the user and display it like this.
+   print(num1 ** 2)
+   print(num2 ** 3)
+   print(num3 ** 0.5)
+
+# num1 = int(input("Enter first num:"))
+# print(num1 ** 2)
+
+# num2 = int(input("Enter second num:"))
+# print(num2 ** 3)
+
+# num3 = int(input("Enter third num:"))
+# print(num3 ** 0.5)
+
+5 . Write a Python program to convert seconds into minutes and seconds.
+
+# num = int(input("Enter the seconds:"))
+# minutes = num // 60
+# seconds = num % 60
+# print(minutes, seconds)
+
+
