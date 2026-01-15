@@ -52,3 +52,21 @@ Write a Python program to calculate the total cost if a person buys: 3 pens and 
 # print(minutes, seconds)
 
 
+# 6 . Assign the value 10 to a varible and print it.
+# value = 10
+# print(value)
+
+
+#  7 . Assign the value 5 to a variable, multiply it by 4, and print the result.
+
+# num = 5
+# num *= 4 
+# print(num)  # Output: 20
+
+
+# #  8 . Assign the value 10 to a variable, add 15 to it, and print the result.
+
+# value = 10
+# value += 15
+# print(value)  # Output: 25
+
