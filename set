@@ -1,0 +1,113 @@
+# #1 .  create a set of 5 colors and print it 
+
+# colors = {"red", "blue", "green", "yellow", "purple"}
+# print("Set of colors:", colors)
+
+
+# # 2. create a set of numbers with duplicate and check how pyhton handles duplicate 
+
+# numbers = {1, 2, 3, 4, 5, 5, 4, 3, 2, 1}
+# print("Set of numbers:", numbers)
+
+
+# write a programme to loop the set and print each element
+
+# colors = {"red", "blue", "green", "yellow", "purple"}
+# for color in colors:
+#     print(color)
+
+# # create a set and use .add to add an element
+
+# colors = {"red", "blue", "green"}
+# colors.add("yellow")
+
+
+# # remove an  element using .remove and observe what happens if the element is not presnet 
+
+# colors = {"red", "blue", "green"}
+# colors.remove("blue")
+
+
+# # remove an element using discard and cimapre it with the .remove 
+
+# colors = {"red", "blue", "green"}
+# colors.discard("yellow")  # No error even if "yellow" is not present
+# print("Set of colors after discard:", colors)
+# colors.remove("yellow")  # This will raise a KeyError since "yellow" is not present
+
+# use.pop to remove a random element form a set
+
+# colors = {"red", "blue", "green", "yellow", "purple"}
+# removed_color = colors.pop()
+# print("removed colors :" , removed_color)
+
+
+# set operations like union , intersection , difference
+
+# create two sets and find their union and intersection 
+
+# set1 = {1, 2, 3, 4, 5}
+# set2 = {4, 5, 6, 7, 8}
+# union_set = set1.union(set2)
+# intersection_set = set1.intersection(set2)
+# print("Union of sets:", union_set)
+# print("Intersection of sets:", intersection_set)
+
+
+# # find the difference between two sets
+# set1 = {1, 2, 3, 4, 5}
+# set2 = {4, 5, 6, 7, 8}
+# difference_set = set1.difference(set2)
+# print("Difference of sets (set1 - set2):", difference_set)
+
+
+# use .copy to create a copy of a set  and modify the copy
+
+# original_set = {"apple", "banana", "cherry"}
+# copied_set = original_set.copy()
+# copied_set.add("date")
+# print("Original set:", original_set)
+# print("Copied and modified set:", copied_set)
+
+
+# use .clear to empty a set
+# colors = {"red", "blue", "green", "yellow", "purple"}
+# colors.clear()
+
+
+# converts a list with duplicate elements to a set to remove duplicates
+
+# my_list = [1, 2, 2, 3, 4, 4, 5]
+# my_set = set(my_list)
+# print("Set from list (duplicates removed):", my_set)
+
+
+# write a programme to find all unique charecters in a string using set
+
+# input_string = "hello world"
+# unique_characters = set(input_string)
+# print("Unique characters in the string:", unique_characters)
+
+# given two list of a student find student who only play cricket 
+
+# students_playing_cricket = ["Alice", "Bob", "Charlie", "David"]
+# students_playing_football = ["Charlie", "David", "Eve", "Frank"]    
+# only_cricket_players = set(students_playing_cricket).difference(students_playing_football)
+# print("Students who only play cricket:", only_cricket_players)
+
+
+# take a sentence as a input and print all the unique words as a set 
+
+# input_sentence = "this is a test this is only a test"
+# words = input_sentence.split()
+# unique_words = set(words)
+# print("Unique words in the sentence:", unique_words)
+
+
+# write a programme to check if two set are equal 
+
+# set1 = {1, 2, 3, 4, 5}
+# set2 = {5, 4, 3, 2, 1}
+# are_equal = set1 == set2
+# print("Are the two sets equal?", are_equal)
+
