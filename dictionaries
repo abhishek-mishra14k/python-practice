@@ -1,0 +1,32 @@
+# countries = {
+#     "india" : "delhi",
+#     "usa" : "washington",
+#     "bangladesh" : "dhaka" ,
+#     "pakistan" : "karachi" ,
+#     "bihar" : "patna"
+#     }
+# print(countries)
+
+# print(countries["india"])
+# countries["japan"] = "tokyo"
+# print(countries)
+
+
+students_marks ={
+    "abhishek" : 95,
+    "sanoj" : 86,
+    "amandeep" : 89,
+    "shivam" : 87
+}
+
+# print(students_marks.keys())
+# print(students_marks.values())
+
+# print(students_marks.items())
+# print(students_marks.get("abhishek"))
+
+students_marks.update({"abhishek": 98})
+print(students_marks)
+
+students_marks.pop("abhishek")
+print(students_marks)
