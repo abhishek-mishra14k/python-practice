@@ -1,0 +1,76 @@
+# def func ():
+#     print("Helloworld")
+# func()
+
+# def funct(name):
+#     print('hello' , name )
+    
+# funct("abhishek")
+
+# def sum(a,b):
+#     return a+b
+
+# result = sum(2,5)
+# print(result)
+
+
+# def square(n):
+#     return n*n
+
+# result = square(4)
+
+# print(result)
+
+
+# def check(n):
+#     if ( n % 2 == 0 ):
+#         print("the number is even")
+#     else:
+#         print("number is odd")
+#     return n
+
+# check(10)
+
+
+# def max(a,b):
+#     if (a>b):
+#         print("a is the gretaer number")
+#     else:
+#         print("b is greater ")
+#     return a,b 
+
+# max(4,6)
+
+
+
+# def list(nums):
+#     return sum(nums)/len(nums)
+
+# print(list([2,3,4,4,5,5]))
+    
+
+
+# def count_vowels(text):
+#     count = 0
+#     for ch in text.lower():
+#         if ch in "aeiou":
+#             count += 1
+#     return count
+
+# print(count_vowels("Helloworld"))
+
+
+# def factorial(n):
+#     result = 1 
+#     for i in range (2, n+1):
+#         result *=i
+#     return result
+
+# print(factorial(5))
+
+
+# def is_palindrome(s):
+#     s = s.lower()
+#     return s == s[::-1]
+
+# print(is_palindrome("madam"))
