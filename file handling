@@ -1,0 +1,62 @@
+# with open(r'C:\Users\falakabhi\OneDrive\Desktop\info.txt' , 'r') as f1:
+#     content = f1.readline()
+#     print(content)  
+    
+    
+# with open(r'C:\Users\falakabhi\OneDrive\Desktop\info.txt' , 'r') as f1:
+#     content = f1.read()
+#     print(content)  
+
+# with open(r'C:\Users\falakabhi\OneDrive\Desktop\info.txt' , 'r') as file:
+#     lines_list = file.readlines()
+#     print(lines_list)
+
+
+# Read the file line by line using a loop
+
+# with open(r"C:\Users\falakabhi\OneDrive\Desktop\info.txt", 'r') as file:
+#     for line in file:
+#         print(line.strip())  # using the strip method to remove leading/trailing whitespace
+
+
+# # Count the total number of product in the file 
+
+# with open(r"C:\Users\falakabhi\OneDrive\Desktop\info.txt", 'r') as file:
+#     lines = file.readlines()
+#     count =len(lines)
+#     print("Total number of linse in the file is :" , count)
+
+
+# Display only the  product names from the file 
+
+# with open(r"C:\Users\falakabhi\OneDrive\Desktop\info.txt" , 'r') as file:
+#     for line in file:
+#         product_name = line.split(',')[1]
+#         print(product_name)
+
+
+# Display product whose price is greater than 10000
+
+# with open(r"C:\Users\falakabhi\OneDrive\Desktop\info.txt",'r') as file:
+#     for line in file:
+#         parts = line.split(',')
+#         product_name = parts[1].strip()
+#         price = parts[2].strip()
+
+#         if float(price) > 10000:
+#             print(product_name)
+
+
+# with open(r"C:\Users\falakabhi\OneDrive\Desktop\info.txt" , 'w')as file:
+#     file.write("p201,Headphone,2000 ,Electronics\n p202,sofa,28000,furniture\np203,pc,50000,electronics")
+#     print("Data written Successfully")
+    
+
+# open the file in append mode and add the details 
+
+with open(r"C:\Users\falakabhi\OneDrive\Desktop\info.txt", 'a') as file:
+    file.write("p206,Bluetooth,20000 ,Electronics")
+    print("Data appendded successfully")   
+
+
+    
