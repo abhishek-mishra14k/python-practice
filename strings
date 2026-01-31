@@ -1,0 +1,61 @@
+name = "abhishek"
+
+nameshort = name[0:4]  #this will print the value from index 0 to the 4 (excluding the 4)
+print(nameshort)
+
+charname= name[2]   # this will print the value at the index 2
+print(charname)
+
+
+                                           # negative indices
+
+print(name[-4:-2])
+print(name[4:6])  #convert the negative indeces into positive indeces by marking them all
+
+
+
+
+print(name[3:])  #this is sam as print(name[3:7])
+print(name[:5])  #this is same as print(name[0:5])
+
+
+
+
+
+name = "abhishek"
+
+print(len(name))
+print(name.endswith("ek"))
+print(name.startswith("abh"))
+print(name.capitalize())   #only capitalize first lettter
+print(name.lower())
+print(name.upper())
+print(name.replace('b','c'))
+
+
+
+
+
+
+  
+# write a programme todisplay a user entered name as followed by good afternoon using input function
+
+name = input("enter your name : ")
+
+print(f"good afternoon {name}  ")  #used f string
+
+
+# write a code to fill the given letter template 
+
+letter =''' Dear <|Name|> ,
+             you are selected 
+             <|date|>'''
+
+print(letter.replace("<|Name|>","abhishek").replace(" <|date|>" ," 6th of july"))
+
+
+# write a programme to detect the double space 
+
+
+name =  "abhishek is a good boy  "
+print(name.find("   "))
