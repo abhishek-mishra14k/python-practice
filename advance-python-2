@@ -1,0 +1,45 @@
+from functools import reduce
+
+l = [1,2,3,4,5]
+
+square = lambda x:x*x
+
+sqlist = list(map(square,l))
+print(list(sqlist))
+
+
+# example of filter function
+
+def even(n):
+    if n%2 == 0:
+        return True
+    return False
+
+evenlist = filter(even,l)
+print(list(evenlist))
+
+
+# example of reduce function
+
+def add(a,b):
+    return a+b
+
+print(reduce(add,l))
+
+
+
+#join
+
+a = ["abhishek","rishi","sanoj"]
+
+final = "-".join(a)
+print(final) 
+
+3lembda function
+
+# def square(n):
+#     return n * n
+
+square = lambda x:x*x
+
+print(square(5))
